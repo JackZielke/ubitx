@@ -77,8 +77,10 @@
 //these are the two default USB and LSB frequencies. The best frequencies depend upon your individual taste and filter shape
 #define INIT_USB_FREQ   (11996500l)
 // limits the tuning and working range of the ubitx between 3 MHz and 30 MHz
-#define LOWEST_FREQ  (3000000l)
-#define HIGHEST_FREQ (30000000l)
+//#define LOWEST_FREQ  (3000000l)
+//#define HIGHEST_FREQ (30000000l)
+#define LOWEST_FREQ  (450000l)
+#define HIGHEST_FREQ (60000000l)
 
 //When the frequency is moved by the dial, the maximum value by KD8CEC
 #define LOWEST_FREQ_DIAL  (3000l)
