@@ -24,11 +24,11 @@
 //==============================================================================
 //Depending on the type of LCD mounted on the uBITX, uncomment one of the options below.
 //You must select only one.
-//#define UBITX_DISPLAY_LCD1602P        //LCD mounted on unmodified uBITX (Parallel)
+#define UBITX_DISPLAY_LCD1602P        //LCD mounted on unmodified uBITX (Parallel)
 //#define UBITX_DISPLAY_LCD1602I        //I2C type 16 x 02 LCD
 //#define UBITX_DISPLAY_LCD1602I_DUAL   //I2C type 16 x02 LCD Dual
 //#define UBITX_DISPLAY_LCD2004P        //24 x 04 LCD (Parallel)
-#define UBITX_DISPLAY_LCD2004I        //I2C type 24 x 04 LCD
+//#define UBITX_DISPLAY_LCD2004I        //I2C type 24 x 04 LCD
 //#define UBITX_DISPLAY_NEXTION         //NEXTION LCD
 
 //#define UBITX_DISPLAY_NEXTION_SAFE      //Only EEProm Write 770~775
